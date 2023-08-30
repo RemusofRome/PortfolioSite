@@ -35,57 +35,58 @@
 
 html,
 body {
-    font-family: 'Bespoke Sans', sans-serif;
-    font-family: 'Bespoke Serif', serif;
+  font-family: "Bespoke Sans", sans-serif;
+  font-family: "Bespoke Serif", serif;
 }
 
 .regular {
-    font-family: 'Bespoke Serif', serif;
-    font-weight: 400;
-    font-size: 2.5rem;
+  font-family: "Bespoke Serif", serif;
+  font-weight: 400;
+  font-size: 2.5rem;
 }
 
 .medium {
-    font-family: 'Bespoke Serif', serif;
-    font-weight: 500;
-    font-size: 2.5rem;
+  font-family: "Bespoke Serif", serif;
+  font-weight: 500;
+  font-size: 2.5rem;
 }
 
 .bold {
-    font-family: 'Bespoke Serif', serif;
-    font-weight: 700;
-    font-size: 2.5rem;
+  font-family: "Bespoke Serif", serif;
+  font-weight: 700;
+  font-size: 2.5rem;
 }
 
 .extrabold {
-    font-family: 'Bespoke Serif', serif;
-    font-weight: 800;
-    font-size: 2.5rem;
+  font-family: "Bespoke Serif", serif;
+  font-weight: 800;
+  font-size: 2.5rem;
 }
 
 .sans-regular {
-    font-weight: 400;
-    font-size: 1rem;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 .sans-medium {
-    font-weight: 500;
-    font-size: 1rem;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 .sans-bold {
-    font-weight: 700;
-    font-size: 1rem;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
 .sans-extrabold {
-    font-weight: 800;
-    font-size: 1rem;
+  font-weight: 800;
+  font-size: 1rem;
 }
 
 #navbar {
-  border: 2px solid black;
-  border-radius: 12px;
+  border-radius: var(--rounded-md, 12px);
+  border: 1px solid var(--border-border, #d6d6cf);
+  background: var(--surface-container, #e8e7e4);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -94,7 +95,6 @@ body {
   max-height: 56px;
   margin: auto;
   margin-top: 24px;
-  background-color: #e8e7e4;
 }
 
 #nameContainer {
@@ -103,6 +103,7 @@ body {
   align-items: center;
   width: 178px;
   height: 40px;
+  gap: 8px;
 }
 
 #nameContainer img {
@@ -112,9 +113,13 @@ body {
 }
 
 #name {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  color: var(--text-text, #21201a);
+  font-family: Bespoke Serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 111.111% */
+  letter-spacing: -0.18px;
 }
 
 #navigation {
@@ -126,12 +131,12 @@ body {
 }
 
 #navigation h3 {
-  font-family: 'Bespoke Sans', sans-serif;
+  font-family: "Bespoke Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 22px;
-  color: var(--text-text, #21201A);
+  color: var(--text-text, #21201a);
 }
 
 #contact {
@@ -143,13 +148,13 @@ body {
   align-items: center;
   border-radius: var(--rounded, 8px);
   background: var(--color-life-700, #535341);
-  font-family: 'Bespoke Sans', sans-serif;
+  font-family: "Bespoke Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 22px;
   box-sizing: border-box;
-  color: var(--color-ground-100, #f6f2ef);
+  color: var(--color-ground-100, #f6f2ef) !important;
 }
 
 #heroContainer {
@@ -208,18 +213,23 @@ p {
 #myWork {
   display: flex;
   width: 117px;
-  height: 48px;
+  height: var(--scale-48, 48px);
   padding: 13px 24px;
   justify-content: center;
   align-items: center;
-  border-radius: var(--rounded, 8px);
-  border: 2px solid var(--color-life-700, #535341);
+  border-radius: var(--radius-default, 4px);
+  background: var(--button-bg, #535341);
   margin: 0;
-  font-size: 14px;
+  box-sizing: border-box;
+}
+
+#myWork h3 {
+  color: var(--color-ground-100, #F6F2EF);
+  font-family: Bespoke Sans;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 22px;
-  box-sizing: border-box;
+  line-height: 22px; /* 137.5% */
 }
 
 #contactMe {
