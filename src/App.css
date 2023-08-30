@@ -120,7 +120,6 @@ body {
 #navigation {
   display: flex;
   gap: 16px;
-  max-width: 336px;
   max-height: 40px;
   align-items: center;
   justify-content: center;
