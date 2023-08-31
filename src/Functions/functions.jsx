@@ -19,7 +19,7 @@ class Modal extends React.Component {
       <div id="Modal">
         <div id='ModalContainer'>
         <div id='modalHeader'>
-            <h1>Contact me bitches</h1>
+            <h1>Contact me</h1>
             <h1 id='closeModal' onClick={() => {document.querySelector("#Modal").classList.remove('activeModal')}}>X</h1>
         </div>
         <div id='contactContainer'>
