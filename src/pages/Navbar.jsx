@@ -1,13 +1,14 @@
 import { Link, Outlet } from "react-router-dom"
 import '../App.css'
 import Modal from "../Functions/functions"
+import profile from "../pictures/profile.png"
 
 export default function Navbar () {
     return (
         <>
         <nav id="navbar">
             <div id="nameContainer">
-            <img src="src/Pictures/Profile.png"></img>
+            <img src={profile}></img>
             <Link to='/'><h3 id="name">Brandon Flach</h3></Link>
             </div>
             <div id="navigation">
