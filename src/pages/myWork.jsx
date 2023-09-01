@@ -16,7 +16,7 @@ function Card (props) {
                 <h3>{props.title}</h3>
                 <img id="image" src={props.image}></img>
             </div>
-            <h3>TESTTESTTESTTESTTEST</h3>
+            <h3>{props.subtext}</h3>
         </a>
        
     )
