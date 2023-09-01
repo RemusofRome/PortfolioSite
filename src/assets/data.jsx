@@ -4,7 +4,7 @@ import VanLife from "../Pictures/VanLife.png"
 
 const data = [
     {id: 1,
-    url: "https://vanlife-4qq0k9e3v-remusofrome.vercel.app/vans",
+    url: "https://vanlife-4qq0k9e3v-remusofrome.vercel.app",
     title: "VanLife",
     image: VanLife,
     subtext: "Methods utilized : Routing, Authorization, filtering, relationships between parents and children"
