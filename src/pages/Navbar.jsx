@@ -1,7 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
 import "../App.css";
 import Modal from "../Functions/functions";
-import profile from "../pictures/profile.png";
+import profile from "../assets/imgs/profile.png";
 
 export default function Navbar() {
   return (

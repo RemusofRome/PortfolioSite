@@ -1,5 +1,5 @@
-import dicegame from "../pictures/dicegame.png";
-import vanlife from "../pictures/vanlife.png";
+import dicegame from "../assets/imgs/dicegame.png";
+import vanlife from "../assets/imgs/vanlife.png";
 
 const data = [
   {
