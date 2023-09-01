@@ -1,10 +1,11 @@
-import Hero from  '../assets/Hero'
-import MyWork from '../assets/MyWork'
+import Hero from "../assets/Hero";
+import MyWork from "../assets/MyWork";
 
-export default function Home () {
-   return ( 
-   <>
-    <Hero/>
-    <MyWork/>
-    </>)
+export default function Home() {
+  return (
+    <>
+      <Hero />
+      <MyWork />
+    </>
+  );
 }
