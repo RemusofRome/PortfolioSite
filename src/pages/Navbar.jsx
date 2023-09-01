@@ -7,7 +7,7 @@ export default function Navbar () {
         <>
         <nav id="navbar">
             <div id="nameContainer">
-            <img src="src\Pictures\Profile.png"></img>
+            <img src="src/Pictures/Profile.png"></img>
             <Link to='/'><h3 id="name">Brandon Flach</h3></Link>
             </div>
             <div id="navigation">
