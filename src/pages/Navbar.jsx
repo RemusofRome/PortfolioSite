@@ -23,14 +23,14 @@ export default function Navbar() {
           <a href="https://github.com/RemusofRome" target="_blank">
             <h3>Github</h3>
           </a>
-          <h3
+          {/* <h3
             id="contact"
             onClick={() => {
               document.querySelector("#Modal").classList.add("activeModal");
             }}
           >
             Contact me
-          </h3>
+          </h3> */}
         </div>
       </nav>
       <Outlet />

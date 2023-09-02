@@ -17,14 +17,14 @@ export default function Hero() {
               <h3>My work</h3>
             </div>
           </Link>
-          <div
+          {/* <div
             id="contactMe"
             onClick={() => {
               document.querySelector("#Modal").classList.add("activeModal");
             }}
           >
             <h3>Contact Me</h3>
-          </div>
+          </div> */}
         </div>
       </div>
       <div id="hook"></div>

@@ -271,10 +271,12 @@ a {
   margin: 20px auto;
   box-sizing: border-box;
   display: flex;
+  gap: 2px;
 }
 
 #cards div {
-  width: 50%;
+  width:fit-content;
+
 }
 
 #cards div h3 {
@@ -285,8 +287,8 @@ a {
 }
 
 #image {
-  width: 300px;
-  margin: 5%;
+  width: 90%;
+  
 }
 
 #Modal {
@@ -402,6 +404,11 @@ button {
 #aboutMeContainer h1 {
   text-decoration: underline;
   margin-bottom: 20px;
+}
+
+#aboutMeContainer p {
+  width: 60%;
+  margin: auto;
 }
 
 #profileImg {
