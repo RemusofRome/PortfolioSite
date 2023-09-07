@@ -490,3 +490,14 @@ textarea {
   border: 2px solid black;
   box-shadow: 2px 2px 2px black;
 }
+
+.footer {
+  margin: auto;
+  max-width: 1280px;
+  max-height: 56px;
+  margin: auto;
+  margin-bottom: 24px;
+  border-radius: var(--rounded-md, 12px);
+  border: 1px solid var(--border-border, #d6d6cf);
+  background: var(--bg-container, #e8e7e4);
+}
