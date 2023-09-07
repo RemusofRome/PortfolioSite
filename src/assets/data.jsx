@@ -18,9 +18,7 @@ const data = [
     subtext:
       "Methods utilized : .map, .filter, randomization, conditionals, modal.",
   },
-  { id: 3, url: "3", title: "www", image: "", subtext: "test" },
-  { id: 4, url: "4", title: "www", image: "", subtext: "test" },
-  { id: 5, url: "5", title: "www", image: "", subtext: "test" },
+  
 ];
 
 export default { data };
