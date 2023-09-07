@@ -24,17 +24,17 @@ class Modal extends React.Component {
 
               <div className="form-group">
                 <label htmlFor="name" id="textInForm">Name</label>
-                <input type="text" name="name" className="form-control"/>
+                <input type="text" name="name" className="form-control" required/>
               </div>
 
               <div className="form-group">
                 <label htmlFor="exampleInputEmail1" id="textInForm">Email address</label>
-                <input type="email" name="email" className="form-control"/>
+                <input type="email" name="email" className="form-control" required/>
               </div>
 
               <div className="form-group">
                 <label htmlFor="message" id="textInForm">Message</label>
-                <textarea name="message" className="form-control"/>
+                <textarea name="message" className="form-control" required/>
               </div>
 
               <button type="submit">Submit</button>
