@@ -125,7 +125,7 @@ body {
 
 #navigation {
   display: flex;
-  gap: 16px;
+  gap: 20px;
   max-height: 40px;
   align-items: center;
   justify-content: center;
@@ -138,6 +138,12 @@ body {
   font-weight: 500;
   line-height: 22px;
   color: var(--text-text, #21201a);
+}
+
+.github-css {
+  gap: 2px;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-primary {
