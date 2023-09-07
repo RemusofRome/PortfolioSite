@@ -1,15 +1,6 @@
 import React from "react";
 
 class Modal extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: "",
-      email: "",
-      message: "",
-    };
-  }
-
   render() {
     return (
       <div id="Modal">
@@ -28,69 +19,37 @@ class Modal extends React.Component {
             </h1>
           </div>
           <div id="contactContainer">
-            <form
-              id="contact-form"
-              onSubmit={this.handleSubmit.bind(this)}
-              method="POST"
-            >
+
+            <form id="contact-form" action="https://usebasin.com/f/6084fad100dc" method="POST">
+
               <div className="form-group">
-                <label htmlFor="name" id="textInForm">
-                  Name
-                </label>
-                <input
-                  type="text"
-                  className="form-control"
-                  value={this.state.name}
-                  onChange={this.onNameChange.bind(this)}
-                />
+                <label htmlFor="name" id="textInForm">Name</label>
+                <input type="text" name="name" className="form-control"/>
               </div>
+
               <div className="form-group">
-                <label htmlFor="exampleInputEmail1" id="textInForm">
-                  Email address
-                </label>
-                <input
-                  type="email"
-                  className="form-control"
-                  aria-describedby="emailHelp"
-                  value={this.state.email}
-                  onChange={this.onEmailChange.bind(this)}
-                />
+                <label htmlFor="exampleInputEmail1" id="textInForm">Email address</label>
+                <input type="email" name="email" className="form-control"/>
               </div>
+
               <div className="form-group">
-                <label htmlFor="message" id="textInForm">
-                  Message
-                </label>
-                <textarea
-                  className="form-control"
-                  value={this.state.message}
-                  onChange={this.onMessageChange.bind(this)}
-                />
+                <label htmlFor="message" id="textInForm">Message</label>
+                <textarea name="message" className="form-control"/>
               </div>
+
               <button type="submit">Submit</button>
+
             </form>
+            
           </div>
         </div>
       </div>
     );
   }
-
-  onNameChange(event) {
-    this.setState({ name: event.target.value });
-  }
-  onEmailChange(event) {
-    this.setState({ email: event.target.value });
-  }
-  onMessageChange(event) {
-    this.setState({ message: event.target.value });
-  }
-  handleSubmit(event) {
-    e.preventDefault();
-    console.log(this.state);
-  }
 }
 
-function closeModal() {
-  closeModal.style.display = "none";
-}
+  
+
+
 
 export default Modal;
